@@ -91,6 +91,10 @@ LIMIT
 ```
 image::https://user-images.githubusercontent.com/63274055/150155397-bb012dd4-5843-4fee-8e8d-4d1488d20876.png[width=600]
 
+xref:3-02-Activity-1-to-4[Top Section]
+
+xref:list-the-clients-with-no-credit-card[Bottom section]
+
 ====
 ''''
 ====
@@ -120,6 +124,11 @@ LIMIT
     10;
 ```
 image::https://user-images.githubusercontent.com/63274055/150169460-29471907-33b2-4873-95eb-49310fa2c66a.png[width=600]
+
+xref:3-02-Activity-1-to-4[Top Section]
+
+xref:list-the-clients-with-no-credit-card[Bottom section]
+
 
 
 ====
@@ -164,6 +173,11 @@ LIMIT
 ```
 
 image::https://user-images.githubusercontent.com/63274055/150173746-8f0549f9-20cc-4018-9291-1820ae943eda.png[width=600]
+
+xref:3-02-Activity-1-to-4[Top Section]
+
+xref:list-the-clients-with-no-credit-card[Bottom section]
+
 
 ====
 ''''
