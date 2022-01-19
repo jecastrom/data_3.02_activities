@@ -63,9 +63,9 @@ toc::[]
 
 
 
-= Activities:
+== Activities:
 
-== List `district_name`, `client_id` and `account_id` for those clients who are owner of the account. Order the results by `district_name`
+=== List `district_name`, `client_id` and `account_id` for those clients who are owner of the account. Order the results by `district_name`
 
 
 
