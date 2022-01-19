@@ -204,9 +204,15 @@ LIMIT
 
 image::https://user-images.githubusercontent.com/63274055/150181400-42c2f1e4-da5d-40bd-a4c5-87ec4aeca010.png[width=600]
 
-
+====
+''''
+====
 
 {rel-cont}[Related content: Lab SQL Joins on multiple tables]
+
+====
+''''
+====
 
 //bla bla blafootnote:[{fn-xxx}]
 
