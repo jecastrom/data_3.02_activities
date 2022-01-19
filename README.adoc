@@ -164,6 +164,23 @@ LIMIT
 
 image::https://user-images.githubusercontent.com/63274055/150173746-8f0549f9-20cc-4018-9291-1820ae943eda.png[width=600]
 
+====
+''''
+====
+
+== Activity
+
+=== list the clients with no credit card.
+
+`*_Answer:_*`
+
+```sql
+
+```
+
+image::path[width=600]
+
+
 
 {script-url}[Solutions script only]
 
