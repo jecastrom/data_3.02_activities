@@ -120,7 +120,6 @@ LIMIT
 ```
 image::https://user-images.githubusercontent.com/63274055/150169460-29471907-33b2-4873-95eb-49310fa2c66a.png[width=600]
 
-{script-url}[Solutions script only]
 
 ====
 ''''
@@ -166,6 +165,7 @@ LIMIT
 image::https://user-images.githubusercontent.com/63274055/150173746-8f0549f9-20cc-4018-9291-1820ae943eda.png[width=600]
 
 
+{script-url}[Solutions script only]
 
 //bla bla blafootnote:[{fn-xxx}]
 
