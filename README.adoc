@@ -98,6 +98,9 @@ image::https://user-images.githubusercontent.com/63274055/150155397-bb012dd4-584
 
 === List districts together with total amount borrowed and average loan amount
 
+`*_Answer:_*`
+
+
 ```sql
 SELECT
     d.A2 AS district_name,
@@ -122,6 +125,47 @@ image::https://user-images.githubusercontent.com/63274055/150169460-29471907-33b
 ====
 ''''
 ====
+
+== Activity
+
+=== Create a temporary table district_overview in the bank database
+
+* which lists districts together with total amount borrowed and average loan amount.
+
+
+`*_Answer:_*`
+
+```sql
+CREATE TEMPORARY TABLE district_overview
+SELECT
+    d.A2 AS district_name,
+    format(l.amount, 2, 'de_DE') AS amount_borrowed,
+    format(floor(avg(l.amount)), 2, 'de_DE') AS average_loan_amount
+FROM
+    district d
+    INNER JOIN `client` c ON d.A1 = c.district_id
+    INNER JOIN `account` a ON c.district_id = a.district_id
+    INNER JOIN loan l ON a.account_id = l.account_id
+GROUP BY
+    1
+ORDER BY
+    2 DESC;
+```
+
+image::https://user-images.githubusercontent.com/63274055/150173289-4701d02e-2e4a-4802-ba27-7c8bdab46e76.png[width=600]
+
+```sql
+SELECT
+    *
+FROM
+    district_overview
+LIMIT
+    10;
+```
+
+image::https://user-images.githubusercontent.com/63274055/150173746-8f0549f9-20cc-4018-9291-1820ae943eda.png[width=600]
+
+
 
 //bla bla blafootnote:[{fn-xxx}]
 
